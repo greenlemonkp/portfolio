@@ -25,7 +25,7 @@ const Navbar = () => {
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Joon L. &nbsp;{" "}
             <span className="sm:block hidden">
-              &#123; &nbsp; Full-stack Developer &#125;
+              &#123; &nbsp;반갑습니다 &#125;
             </span>
           </p>
         </Link>
