@@ -47,7 +47,7 @@ const services = [
   },
   {
     title: "React Developer",
-    // icon: mobile,
+    icon: mobile,
   },
   {
     title: "Full Stack Developer",
@@ -55,7 +55,7 @@ const services = [
   },
   {
     title: "NextJS Creator",
-    // icon: creator,
+    icon: creator,
   },
 ];
 
