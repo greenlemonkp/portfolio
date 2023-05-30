@@ -1,24 +1,20 @@
 import {
-  mobile,
   frontend,
-  creator,
-  web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  travel,
+  interview,
+  todo,
+  url,
   carrent,
   jobit,
   tripguide,
@@ -79,10 +75,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -117,7 +110,7 @@ const experiences = [
   {
     title: "Expat-ations",
     school_name: "Lighthouse Labs",
-    icon: starbucks,
+    icon: travel,
     iconBg: "#383E56",
     date: "April 2023",
     points: [
@@ -130,7 +123,7 @@ const experiences = [
   {
     title: "Interview Scheduler",
     school_name: "Lighthouse Labs",
-    icon: tesla,
+    icon: interview,
     iconBg: "#E6DEDD",
     date: "January 2023",
     points: [
@@ -142,7 +135,7 @@ const experiences = [
   {
     title: "Smart TODO App",
     school_name: "Lighthouse Labs",
-    icon: shopify,
+    icon: todo,
     iconBg: "#383E56",
     date: "December 2022",
     points: [
@@ -155,7 +148,7 @@ const experiences = [
   {
     title: "TinyApp",
     school_name: "Lighthouse Labs",
-    icon: meta,
+    icon: url,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
