@@ -18,15 +18,14 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import url from "./company/url.png";
+import todo from "./company/todo.png";
+import travel from "./company/travel.png";
+import interview from "./company/interview.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -52,14 +51,13 @@ export {
   mongodb,
   nodejs,
   reactjs,
-  redux,
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  todo,
+  travel,
+  url,
+  interview,
   carrent,
   jobit,
   tripguide,
