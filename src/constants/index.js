@@ -11,13 +11,9 @@ import {
   git,
   figma,
   docker,
-  travel,
-  interview,
-  todo,
-  url,
-  carrent,
-  jobit,
-  tripguide,
+  expat,
+  interviewApp,
+  todoApp,
   threejs,
   stack,
   backend,
@@ -106,97 +102,18 @@ const technologies = [
   },
 ];
 
-const experiences = [
-  {
-    title: "Expat-ations",
-    school_name: "Lighthouse Labs",
-    icon: travel,
-    iconBg: "#383E56",
-    date: "April 2023",
-    points: [
-      "Final group project for Lighthouse Labs.",
-      "Smart app that compares multiple cities for travellers in various living factors",
-      "Smart city suggestions by OpenAI's ChatGPT",
-      "Tech Stack: NextJS, TailwindCSS, MUI, ChartJS",
-    ],
-  },
-  {
-    title: "Interview Scheduler",
-    school_name: "Lighthouse Labs",
-    icon: interview,
-    iconBg: "#E6DEDD",
-    date: "January 2023",
-    points: [
-      "React Project for Lighthouse Labs",
-      "Interview scheduler app with edit and cancel functions",
-      "Tech Stack: ReactJS",
-    ],
-  },
-  {
-    title: "Smart TODO App",
-    school_name: "Lighthouse Labs",
-    icon: todo,
-    iconBg: "#383E56",
-    date: "December 2022",
-    points: [
-      "Mid-term project for Lightouse Labs.",
-      "Smart TODO app with auto categorization into Film, Restaurants, Books, Products, and General",
-      "Auto-feature powered by multiple APIs. Friendly drag-n-drop feature added for convenience",
-      "Tech Stack: EJS, Express, jQuery, Axios, Sass.",
-    ],
-  },
-  {
-    title: "TinyApp",
-    school_name: "Lighthouse Labs",
-    icon: url,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Project for Lighthouse Labs that allows users to shorten long URLs.",
-      "Tech Stack: EJS, bjcryptjs, cookie-session, NodeJS, Express",
-    ],
-  },
-];
-
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
 const projects = [
   {
-    name: "Car Rent",
+    name: "Expat-ations",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Created by Lighthouse Labs Web Dev students Hillary Forget, Joon Lee, Christian Alphonse and Clayton Van Imschoot for finals project. It allows users to compare cities on many elements and features ChatGPT suggested cities",
     tags: [
       {
-        name: "react",
+        name: "Next JS",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
@@ -204,41 +121,41 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: expat,
+    source_code_link: "https://github.com/hillaryforget/Expat-ations",
   },
   {
-    name: "Job IT",
+    name: "Interview Scheduler",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "React application that allows users to book an appointment with interviewers. It features user friendly UI and allows users to easily choose an interviewer and set up time. Also it has convenient Edit and Cancel buttons ",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Axios",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Storybook",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: interviewApp,
+    source_code_link: "https://github.com/greenlemonkp/scheduler",
   },
   {
-    name: "Trip Guide",
+    name: "Smart ToDo App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A simple To Do app that features auto-categorization using several APIs. TODO will be placed in the single category if API returns one, users will have options when there is multiple match.",
     tags: [
       {
-        name: "nextjs",
+        name: "Axios",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Express",
         color: "green-text-gradient",
       },
       {
@@ -246,9 +163,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: todoApp,
+    source_code_link: "https://github.com/greenlemonkp/SmartTodoApp",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, projects };
