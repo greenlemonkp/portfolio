@@ -22,14 +22,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import url from "./company/url.png";
-import todo from "./company/todo.png";
-import travel from "./company/travel.png";
-import interview from "./company/interview.png";
-
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import expat from "./expat.png";
+import interviewApp from "./interviewApp.png";
+import todoApp from "./todoApp.png";
 
 export {
   logo,
@@ -54,11 +49,7 @@ export {
   tailwind,
   typescript,
   threejs,
-  todo,
-  travel,
-  url,
-  interview,
-  carrent,
-  jobit,
-  tripguide,
+  expat,
+  interviewApp,
+  todoApp,
 };
